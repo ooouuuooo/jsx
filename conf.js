@@ -6,12 +6,12 @@ jsproxy_config({
   node_map: {
     'mysite': {
       label: '当前站点',
-      lines: [
+      lines: {
         // 静态资源和代理接口位于同个服务器的场合
         // 例如默认的 ip.xip.io 以及 cloudflare worker
         //location.host
-        'b.hld.workers.dev'
-      ]
+        'b.hld.workers.dev':1
+      }
     },
     'cfworker': {
       label: 'Cloudflare Worker',
