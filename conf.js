@@ -10,7 +10,7 @@ jsproxy_config({
         // 静态资源和代理接口位于同个服务器的场合
         // 例如默认的 ip.xip.io 以及 cloudflare worker
         //location.host
-        'b.hld.workers.dev': 1
+        'b.hld.workers.dev': 1,
       ]
     },
     'cfworker': {
@@ -19,7 +19,7 @@ jsproxy_config({
       lines: [
         // 实验中...
         //'node-cfworker.etherdream.com:8443'
-        'b.hld.workers.dev'
+        'b.hld.workers.dev',
       ]
     }
   },
