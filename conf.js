@@ -31,8 +31,8 @@ jsproxy_config({
   /**
    * 加速节点
    */
-  node_acc: 'cfworker',
-
+  //node_acc: 'cfworker',
+  node_acc: 'mysite',
   /**
    * 静态资源 CDN 地址
    * 用于加速 `assets` 目录中的资源访问
